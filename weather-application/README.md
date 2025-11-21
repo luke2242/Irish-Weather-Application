@@ -1,7 +1,7 @@
 # Irish Weather Application
 
 ## Introduction
-A weather application that provides current weather information specifically for Ireland. Built with **ReactJS**, **Vite**, **Bootstrap 5**, **OpenMeteo API**, **OpenWeatherMap API**, and **Rainfall Radar**. Please note that this app requires an API key to function correctly.  You can sign up for your own API key at OpenWeatherMap for free.
+A weather application that provides current weather information specifically for Ireland. Built with **ReactJS**, **Vite**, **Bootstrap 5**, **OpenMeteo API** and **OpenWeatherMap API**.
 
 ---
 
@@ -42,15 +42,17 @@ To set up the application on your local machine, follow these steps:
 
 ## Features
 - **Location-based weather information**: Search for any location within Ireland and retrieve current weather details.
-- **Multilingual search**: The search bar allows users to input location names in either English or Irish.
-- **Rainfall Radar**: Live rainfall radar that updates every 10 minutes, providing real-time weather patterns.
 - **User-friendly interface**: A clean and easy-to-navigate UI built with **Bootstrap 5**, designed for smooth user experience.
+- **7 Day Forecast:** Will display a 7 day forecast for the search location.
+- **Hourly Forecast:** Will display an hourly forecast for the next 24 hours within the entered location. Default location is Dublin.
+- **Interactive Weather Map:** The weather map will display hourly weather information for 8 locations across Ireland.
+Weather Warning Pages: Shows current weather warnings using Met Eireanns API.
 
 ---
 
 ## Acknowledgments
-- **OpenMeteo API**: For providing free weather data.
-- **OpenWeatherMap API**: For reliable weather forecasts.
-- **Rainfall Radar**: For offering radar data and real-time weather patterns.
+- **OpenWeatherMap API**: For reliable weather forecasts and geodata.
+- **React Leaflet:** For the map.
+- **Met Eireann:** For weather warnings, advisories and other weather information.
 
 Thank you to all these services for making this app possible!

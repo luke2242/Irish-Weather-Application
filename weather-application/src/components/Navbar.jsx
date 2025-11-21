@@ -1,9 +1,7 @@
-import React from "react";
-import "./stylesheets/Navbar.css";
+
+import "../stylesheets/Navbar.css";
 import { Link } from "react-router-dom";
 
-
-//Reference: https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
 function Navbar() {
   return (
     <>
@@ -16,15 +14,19 @@ function Navbar() {
             </Link>
             {" "}
             <Link to="hourly" className="navlink">
-            Hourly Forecasts
+              Hourly Forecasts
             </Link>
             {" "}
             <Link to="/map" className="navlink">
               Map
             </Link>
             {" "}
+            <Link to="/updates" className="navlink">
+              Updates
+            </Link>
+            {" "}
             <Link to="/weatherwarnings" className="navlink">
-            Warnings
+              Warnings
             </Link>
           </div>
         </div>

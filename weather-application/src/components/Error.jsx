@@ -1,4 +1,4 @@
-import "./stylesheets/Error.css";
+import "../stylesheets/Error.css";
 
 
 //Will return an error screen when called

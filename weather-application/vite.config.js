@@ -15,6 +15,12 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/met/, ''),
       },
+      '/api/geocode':{
+        target: "https://geocoding-api.open-meteo.com",
+        changeOrigin: true,
+        secure: true,
+        rewrite: (path) => path.replace(/^\/api\/geocode/, "/v1/search"),
+      }
     },
   },
 })

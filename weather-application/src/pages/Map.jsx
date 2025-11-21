@@ -1,7 +1,7 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import "./stylesheets/Map.css";
+import "../stylesheets/Map.css";
 
 // Move the locations array outside the component
 const locations = [

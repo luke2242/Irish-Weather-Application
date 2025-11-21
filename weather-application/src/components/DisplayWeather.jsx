@@ -1,7 +1,5 @@
-import React from "react";
 import { useState, useEffect } from "react";
-import "./stylesheets/DisplayWeather.css";
-
+import "../stylesheets/DisplayWeather.css";
 import Loading from "./Loading";
 import ForecastIcons from "./ForecastIcons";
 

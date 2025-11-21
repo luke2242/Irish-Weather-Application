@@ -1,4 +1,4 @@
-import WeatherAdvisory from "./WeatherAdvisory";
+import WeatherAdvisory from "../components/WeatherAdvisory";
 
 function WeatherWarnings(){
 

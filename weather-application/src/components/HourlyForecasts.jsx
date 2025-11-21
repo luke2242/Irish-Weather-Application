@@ -3,7 +3,7 @@ import ForecastIcons from "./ForecastIcons";
 import axios from "axios";
 import Loading from "./Loading";
 import Error from "./Error";
-import "./stylesheets/HourlyForecast.css";
+import "../stylesheets/HourlyForecast.css";
 
 
 function HourlyForecasts(){
